@@ -1,11 +1,5 @@
-import React from 'react'
+import { Editor } from "../editor";
 
-type Props = {}
-
-function Page({}: Props) {
-  return (
-    <div>Doc</div>
-  )
+export default function Page() {
+  return <Editor />;
 }
-
-export default Page
